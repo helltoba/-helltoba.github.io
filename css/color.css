@@ -5,13 +5,18 @@ body {
 
 :root {
 	--a-color: rgb(172, 94, 94);
-	--fh-color: rgb(71, 18, 18);
+	--ah-color: rgb(196, 139, 139);
+	--fh-color: rgb(99, 27, 27);
 	--fl-color: rgb(51, 14, 14);
 }
 
 a {
 	color: var(--a-color);
 	text-decoration: none;
+}
+
+a:hover {
+	color: var(--ah-color);
 }
 
 .floatnavbutton {
