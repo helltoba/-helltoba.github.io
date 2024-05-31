@@ -24,5 +24,6 @@ $(window).on('load', function () {
 
 	}).fail(function () {
 		document.getElementById('embed').innerHTML = `<h1>Fail！</h1>`
+		load()
 	})
 })
