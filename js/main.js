@@ -52,7 +52,7 @@ $(document).on('click', 'a', function (e) {
 
 // out
 function outpage(target) {
-    window.location = target
+    window.open(target, '_blank')
 }
 
 // next
