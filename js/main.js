@@ -20,12 +20,15 @@ function load() {
         $('.content').css('padding-top', '80px')
     }, 400)
     setTimeout(function () {
+        $('.float1').removeClass('hide')
         $('.float1').addClass('floatup')
     }, 500)
     setTimeout(function () {
+        $('.float2').removeClass('hide')
         $('.float2').addClass('floatup')
     }, 600)
     setTimeout(function () {
+        $('.float3').removeClass('hide')
         $('.float3').addClass('floatup')
     }, 700)
 }
