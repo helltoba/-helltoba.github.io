@@ -57,9 +57,9 @@ function outpage(target) {
 
 // next
 function nextpage(target) {
-    $('.loading').removeClass('hide')
+    $('.content').addClass('hide')
     setTimeout(function () {
-        $('.content').addClass('hide')
+        $('.loading').removeClass('hide')
     }, 200)
     setTimeout(function () {
         $('.float1').addClass('hide')
