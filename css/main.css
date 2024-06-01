@@ -10,6 +10,7 @@ body {
     padding-bottom: 150px;
     font-family: "Yomogi", "Zen Kurenaido", cursive;
     margin: auto;
+    overflow-x: hidden;
 }
 
 ul {
