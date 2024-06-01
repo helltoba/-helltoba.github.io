@@ -1,17 +1,17 @@
 $(window).on('load', function() {
     let hash = location.search
     if (hash == '') {
-        url('https://helltoba.com/')
+        url('https://www.helltoba.com/')
         title('HellToba - 地獄へようこそ')
         description('HellTobaのサイトのホーム')
     }
     if (hash == '?docs') {
-        url('https://helltoba.com/?docs')
+        url('https://www.helltoba.com/?docs')
         title('HellToba - ドキュメント')
         description('それぞれのプロジェクトのドキュメントを書く予定')
     }
     if (hash == '?info') {
-        url('https://helltoba.com/?info')
+        url('https://www.helltoba.com/?info')
         title('HellToba - 情報')
         description('HellToba Projectについて')
     }
