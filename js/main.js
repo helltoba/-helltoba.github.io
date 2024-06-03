@@ -49,7 +49,7 @@ $(document).on('click', 'a', function (e) {
         }
         samepage()
     } else {
-        nextpage(to)
+        nextpage(to, 'btn')
     }
     window.navigator.vibrate(80);
 })
@@ -60,21 +60,30 @@ function outpage(target) {
 }
 
 // next
-function nextpage(target) {
+function nextpage(target, move) {
+    if (move == 'btn') {
+        $('.content').css('padding-top', '90px')
+    } else if (move == 'left') {
+        $('.content').css('transform', 'translateX(-42px)')
+    } else if (move == 'right') {
+        $('.content').css('transform', 'translateX(42px)')
+    }
     $('.content').addClass('hide')
-    $('.float1').addClass('hide')
     setTimeout(function () {
-        $('.float2').addClass('hide')
+        $('.float1').addClass('hide')
     }, 200)
     setTimeout(function () {
-        $('.float3').addClass('hide')
+        $('.float2').addClass('hide')
     }, 300)
     setTimeout(function () {
-        $('.loading').removeClass('hide')
+        $('.float3').addClass('hide')
     }, 400)
     setTimeout(function () {
+        $('.loading').removeClass('hide')
+    }, 500)
+    setTimeout(function () {
         window.location = target
-    }, 600)
+    }, 700)
 }
 
 // same
