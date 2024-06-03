@@ -22,17 +22,14 @@ function load() {
     setTimeout(function () {
         $('.float1').removeClass('hide')
         $('.float1').addClass('floatup')
-        window.navigator.vibrate(40);
     }, 500)
     setTimeout(function () {
         $('.float2').removeClass('hide')
         $('.float2').addClass('floatup')
-        window.navigator.vibrate(50);
     }, 600)
     setTimeout(function () {
         $('.float3').removeClass('hide')
         $('.float3').addClass('floatup')
-        window.navigator.vibrate(60);
     }, 700)
 }
 
@@ -54,6 +51,7 @@ $(document).on('click', 'a', function (e) {
     } else {
         nextpage(to)
     }
+    window.navigator.vibrate(80);
 })
 
 // out
@@ -68,15 +66,12 @@ function nextpage(target) {
         $('.loading').removeClass('hide')
     }, 200)
     setTimeout(function () {
-        window.navigator.vibrate(60);
         $('.float1').addClass('hide')
     }, 300)
     setTimeout(function () {
-        window.navigator.vibrate(50);
         $('.float2').addClass('hide')
     }, 400)
     setTimeout(function () {
-        window.navigator.vibrate(40);
         $('.float3').addClass('hide')
     }, 500)
     setTimeout(function () {
