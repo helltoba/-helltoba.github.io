@@ -62,21 +62,19 @@ function outpage(target) {
 // next
 function nextpage(target) {
     $('.content').addClass('hide')
-    setTimeout(function () {
-        $('.float1').addClass('hide')
-    }, 200)
+    $('.float1').addClass('hide')
     setTimeout(function () {
         $('.float2').addClass('hide')
-    }, 300)
+    }, 200)
     setTimeout(function () {
         $('.float3').addClass('hide')
-    }, 400)
+    }, 300)
     setTimeout(function () {
         $('.loading').removeClass('hide')
-    }, 500)
+    }, 400)
     setTimeout(function () {
         window.location = target
-    }, 700)
+    }, 600)
 }
 
 // same
