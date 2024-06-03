@@ -63,16 +63,16 @@ function outpage(target) {
 function nextpage(target) {
     $('.content').addClass('hide')
     setTimeout(function () {
-        $('.loading').removeClass('hide')
+        $('.float1').addClass('hide')
     }, 200)
     setTimeout(function () {
-        $('.float1').addClass('hide')
+        $('.float2').addClass('hide')
     }, 300)
     setTimeout(function () {
-        $('.float2').addClass('hide')
+        $('.float3').addClass('hide')
     }, 400)
     setTimeout(function () {
-        $('.float3').addClass('hide')
+        $('.loading').removeClass('hide')
     }, 500)
     setTimeout(function () {
         window.location = target
