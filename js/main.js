@@ -22,12 +22,12 @@ function load() {
     setTimeout(function () {
         $('.float1').removeClass('hide')
         $('.float1').addClass('floatup')
-        window.navigator.vibrate(60);
+        window.navigator.vibrate(40);
     }, 500)
     setTimeout(function () {
         $('.float2').removeClass('hide')
         $('.float2').addClass('floatup')
-        window.navigator.vibrate(60);
+        window.navigator.vibrate(50);
     }, 600)
     setTimeout(function () {
         $('.float3').removeClass('hide')
@@ -72,11 +72,11 @@ function nextpage(target) {
         $('.float1').addClass('hide')
     }, 300)
     setTimeout(function () {
-        window.navigator.vibrate(60);
+        window.navigator.vibrate(50);
         $('.float2').addClass('hide')
     }, 400)
     setTimeout(function () {
-        window.navigator.vibrate(60);
+        window.navigator.vibrate(40);
         $('.float3').addClass('hide')
     }, 500)
     setTimeout(function () {
@@ -87,9 +87,9 @@ function nextpage(target) {
 // same
 function samepage() {
     $('body').css('background-color', 'brown')
-    window.navigator.vibrate(60);
+    window.navigator.vibrate(80);
     setTimeout(function () {
-        window.navigator.vibrate(60);
+        window.navigator.vibrate(80);
     }, 100)
     setTimeout(function () {
         $('body').css('background-color', 'rgb(77, 44, 44)')
