@@ -1,5 +1,5 @@
 // タップ時の誤動作を防ぐためのスワイプ時の処理を実行しない最小距離
-const minimumDistance = 30
+const minimumDistance = 200
 // スワイプ開始時の座標
 let startX = 0
 let startY = 0
@@ -65,10 +65,3 @@ function leftswipe() {
 		samepage()
 	}
 }
-
-window.addEventListener('touchstart', (e) => {
-	setTimeout(function () {
-		
-	}, 200)
-})
-
