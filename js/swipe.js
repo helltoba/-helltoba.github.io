@@ -40,6 +40,18 @@ window.addEventListener('touchend', (e) => {
 			leftswipe()
 		}
 	}
+
+	if (distanceX < distanceY && distanceY > minimumDistance) {
+		// スワイプ後の動作
+		console.log('上下スワイプ')
+		if (startY < endY) {
+			console.log('下スワイプ')
+			notif('設定', 'ここを押してして設定画面を開きます', 'settings')
+		} else if (startY > endY) {
+			console.log('上スワイプ')
+			return
+		}
+	}
 })
 
 function rightswipe() {

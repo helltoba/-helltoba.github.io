@@ -21,9 +21,11 @@ $(window).on('load', function () {
 
 		loadMarkdown()
 		load()
+		nowpage()
 
 	}).fail(function () {
 		document.getElementById('embed').innerHTML = `<h1>Fail！</h1>`
 		load()
+		nowpage()
 	})
 })

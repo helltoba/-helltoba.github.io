@@ -12,12 +12,14 @@
 	<link rel="stylesheet" href="/css/color.css">
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
 	<script src="/js/main.js"></script>
 	<script src="/js/mdfile.js"></script>
 	<script src="/js/ogp.js"></script>
 	<script src="/js/swipe.js"></script>
+	<script src="/js/notif.js"></script>
 	<!-- OGP START -->
 	<meta property="og:type" content="article">
 	<meta property="og:description" content="HellTobaのサイトのホーム">
@@ -38,16 +40,33 @@
 		<div id="embed"></div>
 	</div>
 
+	<div class="notif hide shadow">
+		<p class="n-title"></p>
+		<p class="n-description"></p>
+	</div>
+
+	<div class="settings shadow hide">
+		<h2>設定</h2>
+		<br>
+		<h3>テーマカーラー</h3>
+		<p>テーマカラーを変更致します</p>
+		<select class="colorselect">
+			<option value="red">デフォルト</option>
+			<option value="green">みどり</option>
+		</select>
+		<button class="close"><h3>閉じる</h3></button>
+	</div>
+
 	<div class="navbar">
-		<div class="floatnavbutton float1 shadow hide">
+		<div class="float1 floatnavbutton shadow hide">
 			<a href="/"><img src="/img/home.png" alt="home" width="65px"></a>
 		</div>
 
-		<div class="floatnavbutton float2 shadow hide">
+		<div class="float2 floatnavbutton shadow hide">
 			<a href="/?docs"><img src="/img/docs.png" alt="docs" width="65px"></a>
 		</div>
 
-		<div class="floatnavbutton float3 shadow hide">
+		<div class="float3 floatnavbutton shadow hide">
 			<a href="/?info"><img src="/img/info.png" alt="info" width="65px"></a>
 		</div>
 	</div>

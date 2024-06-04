@@ -3,10 +3,14 @@ $(window).on('load resize', function () {
         $('.float1').css('left', '20px')
         $('.float3').css('right', '20px')
         $('body').css('max-width', '100%')
+        $('.notif').css('max-width', '100%')
+        $('.settings').css('max-width', '100%')
     } else {
-        $('.float1').css('left', $(window).width()/2-280)
-        $('.float3').css('right', $(window).width()/2-280)
+        $('.float1').css('left', $(window).width() / 2 - 280)
+        $('.float3').css('right', $(window).width() / 2 - 280)
         $('body').css('max-width', '600px')
+        $('.notif').css('max-width', '500px')
+        $('.settings').css('max-width', '500px')
     }
 })
 
@@ -70,6 +74,11 @@ function nextpage(target, move) {
     }
     $('.content').addClass('hide')
     setTimeout(function () {
+        $('.notif').removeClass('show')
+        $('.notif').addClass('hide')
+        $('.settings').addClass('hide')
+    }, 100)
+    setTimeout(function () {
         $('.float1').addClass('hide')
     }, 200)
     setTimeout(function () {
@@ -96,4 +105,15 @@ function samepage() {
     setTimeout(function () {
         $('body').css('background-color', 'rgb(77, 44, 44)')
     }, 200)
+}
+
+// now
+function nowpage() {
+    if (location.search == '') {
+        $('.float1').addClass('now')
+    } else if (location.search == '?docs') {
+        $('.float2').addClass('now')
+    } else if (location.search == '?info') {
+        $('.float3').addClass('now')
+    }
 }

@@ -1,13 +1,14 @@
-body {
-	background-color: rgb(77, 44, 44);
-	color: white;
-}
-
 :root {
 	--a-color: rgb(172, 94, 94);
 	--ah-color: rgb(196, 139, 139);
 	--fh-color: rgb(99, 27, 27);
 	--fl-color: rgb(51, 14, 14);
+	--bg-color: rgb(77, 44, 44);
+}
+
+body {
+	background-color: var(--bg-color);
+	color: white;
 }
 
 a {
@@ -29,4 +30,36 @@ a:hover {
 
 .shadow {
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.now {
+	background-color: var(--fh-color);
+}
+
+.n-title {
+	background-color: var(--fl-color);
+}
+
+.n-description {
+	background-color: var(--fh-color);
+}
+
+.settings {
+	background-color: var(--fl-color);
+}
+
+select {
+    color: var(--ah-color);
+}
+
+select:hover {
+    color: var(--a-color);
+}
+
+button {
+	color: var(--ah-color);
+}
+
+button:hover {
+	color: var(--a-color);
 }
