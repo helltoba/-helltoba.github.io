@@ -75,6 +75,7 @@ function nextpage(target, move) {
     $('.content').addClass('hide')
     setTimeout(function () {
         $('.notif').removeClass('show')
+        $('.settings').removeClass('looking')
         $('.notif').addClass('hide')
         $('.settings').addClass('hide')
     }, 100)
@@ -103,7 +104,7 @@ function samepage() {
         window.navigator.vibrate(80);
     }, 100)
     setTimeout(function () {
-        $('body').css('background-color', 'rgb(77, 44, 44)')
+        $('body').css('background-color', 'var(--bg-color)')
     }, 200)
 }
 
