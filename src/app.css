@@ -18,6 +18,8 @@ body {
     padding-top: 100px;
     margin: auto;
     overflow-x: hidden;
+    /* chromiumではうまく改行できなかったので単語破壊します */
+    overflow-wrap: break-word;
     width: 650px;
 }
 

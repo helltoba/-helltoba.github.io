@@ -1,3 +1,7 @@
+<script lang="ts">
+    import { page } from "$app/stores";
+</script>
+
 <p>地獄へようこそ</p>
 <h1>HellToba Project</h1>
 <br>
@@ -26,3 +30,13 @@
     <h3><a href="https://github.com/helltoba/helltoba.github.io">https://github.com/helltoba/helltoba.github.io</a></h3>
     <p>ライセンス未設定です</p>
 </article>
+
+<svelte:head>
+    <title>home</title>
+    <meta property="og:url" content="{$page.url.href}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="home"/>
+    <meta property="og:description" content="HellTobaのホーム"/>
+    <meta property="og:site_name" content="HellToba"/>
+    <meta property="og:image" content="/favicon.png"/>
+</svelte:head>
