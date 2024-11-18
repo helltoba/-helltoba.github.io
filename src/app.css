@@ -1,0 +1,36 @@
+@import '@radix-ui/colors/red-dark.css';
+@import '@radix-ui/colors/gray-dark.css';
+@import '@radix-ui/colors/black-alpha';
+@import '@radix-ui/colors/white-alpha';
+
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+@import 'ress';
+
+@import url('./style.css');
+
+body {
+    font-family: "Yomogi", "Zen Kurenaido", cursive;
+    background-color: var(--red-3);
+    padding: 20px;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    margin: auto;
+    overflow-x: hidden;
+    width: 650px;
+}
+
+@media (max-width: 650px) {
+    body {
+        width: 100%;
+    }
+}
+
+.dshadow {
+    box-shadow: 0 5px 15px var(--black-a6);
+}
+
+.wshadow {
+    box-shadow: 0 5px 15px var(--white-a6);
+}
