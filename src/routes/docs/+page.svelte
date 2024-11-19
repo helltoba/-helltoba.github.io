@@ -7,6 +7,7 @@
 
 <article> 
     <p>虚無</p>
+    <p>もうリンク置き場として使うか</p>
 </article>
 
 <svelte:head>
