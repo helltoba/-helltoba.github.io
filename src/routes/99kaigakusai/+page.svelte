@@ -223,7 +223,7 @@
     <meta property="og:title" content="docs"/>
     <meta property="og:description" content="鳥羽の池上町にて、2064年11月29日,11月30日に開催される第99回海学祭のサイトかも"/>
     <meta property="og:site_name" content="HellToba海学祭特設サイト"/>
-    <meta property="og:image" content="/favicon.png"/>
+    <meta property="og:image" content="/kgs/logo.svg"/>
     <meta name="description" content="鳥羽の池上町にて、2064年11月29日,11月30日に開催される第99回海学祭のサイトかも"/>
     <meta name="keywords" content="海学祭, かいがくさい, kaigakusai, HellToba, helltoba, hell toba, へるとば, 地獄鳥羽, 99回, 第99回, hello toba">
     <style>
