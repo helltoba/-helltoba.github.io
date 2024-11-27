@@ -216,7 +216,7 @@
 </style>
 
 <svelte:head>
-    <title>HellToba海学祭特設サイト</title>
+    <title>第99回海学祭</title>
     <link rel="icon" href="/kgs/logo.svg">
     <meta property="og:url" content="{$page.url.href}"/>
     <meta property="og:type" content="website"/>
