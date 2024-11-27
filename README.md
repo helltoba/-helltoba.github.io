@@ -8,3 +8,5 @@
 - lucide
 - super sitemap
 - unifont
+- yomogi
+- zen kurenaido

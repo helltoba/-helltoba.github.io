@@ -3,10 +3,10 @@
 @import '@radix-ui/colors/black-alpha';
 @import '@radix-ui/colors/white-alpha';
 
-@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
-
 @import 'ress';
+
+@import "@fontsource/yomogi";
+@import "@fontsource/zen-kurenaido";
 
 @import url('./style.css');
 

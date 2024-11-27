@@ -34,11 +34,11 @@ jobs:
         
         # package.jsonの内容でパッケージインストール
       - name: setup app env
-        run: npm i
+        run: yarn install
 
         # ビルド実行、静的リソースを作る
       - name: build static resources
-        run: npm run build
+        run: yarn build
 
       - name: deploy to github pages
         uses: peaceiris/actions-gh-pages@v3

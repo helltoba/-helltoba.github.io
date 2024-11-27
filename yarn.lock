@@ -188,6 +188,16 @@
   resolved "https://registry.yarnpkg.com/@fontsource/unifont/-/unifont-5.1.0.tgz#77c2484d6e169d403b05b0b64d84cb907fbe9b1e"
   integrity sha512-/pc2ttTCnub7H/VC9R0ZW87YgYO/bq4tW6px5T4wGQd7U2H5M2ysBxIX0M0Mx+pG5GHXPddNNjUcLehViDM1OQ==
 
+"@fontsource/yomogi@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/yomogi/-/yomogi-5.1.0.tgz#9aa7a563d06010195ce2c9cce651cba195fcfc6c"
+  integrity sha512-FNtI4gCbaOaGCRKYyjWnQeRnH+JF/iwo09AyNnz3TCe/sBOpMyKOTG8OiWVeN4EOWU4DqhdUL4APV61WJHTbKw==
+
+"@fontsource/zen-kurenaido@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/zen-kurenaido/-/zen-kurenaido-5.1.0.tgz#b79371e4563e32bd2e6a4cf77debe29edbfa10ec"
+  integrity sha512-vLRSc6xT1p8fUTbiFd7z+MdTwO22gzYzz5ey8mW922vFu3Q+tHYES8n2dac2Z3G0M+vPTOpn8r2QB5CIUx6KQA==
+
 "@humanfs/core@^0.19.1":
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/@humanfs/core/-/core-0.19.1.tgz#17c55ca7d426733fe3c561906b8173c336b40a77"

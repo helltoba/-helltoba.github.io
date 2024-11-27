@@ -26,6 +26,8 @@
 	},
 	"dependencies": {
 		"@fontsource/unifont": "^5.1.0",
+		"@fontsource/yomogi": "^5.1.0",
+		"@fontsource/zen-kurenaido": "^5.1.0",
 		"@radix-ui/colors": "^3.0.0",
 		"@sveltejs/adapter-static": "^3.0.6",
 		"lucide-svelte": "^0.456.0",

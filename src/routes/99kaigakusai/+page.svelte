@@ -8,7 +8,7 @@
 
 <div class="usefirefox">
     <a href="https://www.mozilla.org/ja/firefox" title="Firefox ブラウザ無料ダウンロード" target="_blank">
-        <img src="/kgs/img_from_waybackmacine_by_foxkeh_jp.png" alt="Firefox ブラウザ無料ダウンロード" height="50px">
+        <img src="/kgs/img_from_waybackmacine_by_foxkeh_jp.webp" alt="Firefox ブラウザ無料ダウンロード" height="50px">
     </a>
     <p>このサイトはFirefoxでのアクセスを推奨しています。(jxlを利用しているためchrome系では画像が表示されません(<span class="ul">この時点で何か察してください</span>))</p>
 </div>
