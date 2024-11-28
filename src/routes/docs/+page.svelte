@@ -8,6 +8,7 @@
 <article> 
     <p>虚無</p>
     <p>もうリンク置き場として使うか</p>
+    <a href="/99kaigakusai">第99回海学祭</a>    
 </article>
 
 <svelte:head>
