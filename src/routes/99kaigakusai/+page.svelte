@@ -10,7 +10,8 @@
     <a href="https://www.mozilla.org/ja/firefox" title="Firefox ブラウザ無料ダウンロード" target="_blank">
         <img src="/kgs/img_from_waybackmacine_by_foxkeh_jp.webp" alt="Firefox ブラウザ無料ダウンロード" height="50px">
     </a>
-    <p>このサイトはデスクトップ版Firefoxでのアクセスを推奨しています。(jxlを利用しているためchrome系やモバイル火狐では画像が表示されません)</p>
+    <p>このサイトはデスクトップ版Firefoxでのアクセスを推奨しています。</p>
+    <p>(jxlを利用しているためchrome系やモバイル火狐では画像が表示されません)</p>
 </div>
 
 <hr>

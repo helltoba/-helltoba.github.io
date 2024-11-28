@@ -18,4 +18,5 @@
     <meta property="og:description" content="何かしらのドキュメントが置かれる予定"/>
     <meta property="og:site_name" content="HellToba"/>
     <meta property="og:image" content="/favicon.png"/>
+    <meta name="description" content="何かしらのドキュメントが置かれる予定"/>
 </svelte:head>

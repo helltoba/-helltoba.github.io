@@ -13,10 +13,12 @@
     <br>
 
     <h2>われらの取り組み</h2>
-    <li>Discordサーバー</li>
-    <li>BOT運用</li>
-    <li><a href="https://github.com/23201IshiiKanata/ultimate-grades-calc" target="_blank">アルティメット成績計算機</a></li>
-    <li>etc</li>
+    <ul>
+        <li>Discordサーバー</li>
+        <li>BOT運用</li>
+        <li><a href="https://github.com/23201IshiiKanata/ultimate-grades-calc" target="_blank">アルティメット成績計算機</a></li>
+        <li>etc</li>
+    </ul>
 
     <br>
 
@@ -36,7 +38,8 @@
     <meta property="og:url" content="{$page.url.href}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="home"/>
-    <meta property="og:description" content="HellTobaのホーム"/>
+    <meta property="og:description" content="HellTobaとかいうバカの集まりのウェブサイト"/>
     <meta property="og:site_name" content="HellToba"/>
     <meta property="og:image" content="/favicon.png"/>
+    <meta name="description" content="HellTobaとかいうバカの集まりのウェブサイト"/>
 </svelte:head>

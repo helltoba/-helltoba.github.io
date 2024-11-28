@@ -17,4 +17,5 @@
     <meta property="og:description" content="HellTobaに関する情報"/>
     <meta property="og:site_name" content="HellToba"/>
     <meta property="og:image" content="/favicon.png"/>
+    <meta name="description" content="HellTobaに関する情報"/>
 </svelte:head>
