@@ -1,17 +1,19 @@
 <script lang="ts">
+    import "../app.css"
     import { House, FileMinus, Info } from "lucide-svelte";
 	import { setupViewTransition } from 'sveltekit-view-transition';
 	setupViewTransition();
 
     import { page } from '$app/stores';
 
-    import { onMount } from "svelte";
-    onMount(() => {
-        const loadCss = async () => {
-            await import ("../app.css");
-        }
-        loadCss();
-    })
+    //　css遅延読み込みの跡
+    // import { onMount } from "svelte";
+    // onMount(() => {
+    //     const loadCss = async () => {
+    //         await import ("../app.css");
+    //     }
+    //     loadCss();
+    // })
 
 	let { children } = $props();
 </script>
