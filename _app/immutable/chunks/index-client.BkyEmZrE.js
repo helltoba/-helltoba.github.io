@@ -1,0 +1,1 @@
+import{a2 as e,W as a,a3 as u,K as t}from"./runtime.olcEU33U.js";function c(n){throw new Error("lifecycle_outside_component")}function l(n){e===null&&c(),a&&e.l!==null?i(e).m.push(n):u(()=>{const o=t(n);if(typeof o=="function")return o})}function r(n){e===null&&c(),l(()=>()=>t(n))}function i(n){var o=n.l;return o.u??(o.u={a:[],b:[],m:[]})}export{r as a,l as o};

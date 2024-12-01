@@ -7,12 +7,15 @@
     <loc>https://www.helltoba.com/</loc>
   </url>
   <url>
-    <loc>https://www.helltoba.com/99kaigakusai</loc>
-  </url>
-  <url>
     <loc>https://www.helltoba.com/docs</loc>
   </url>
   <url>
     <loc>https://www.helltoba.com/info</loc>
+  </url>
+  <url>
+    <loc>https://www.helltoba.com/kaigakusai/60</loc>
+  </url>
+  <url>
+    <loc>https://www.helltoba.com/kaigakusai/99</loc>
   </url>
 </urlset>
