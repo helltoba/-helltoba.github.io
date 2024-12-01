@@ -19,19 +19,19 @@
 </script>
 
 <nav>
-    <div class="floatnavbutton shadow" class:activefloat={$page.url.pathname == "/"} class:black={$page.url.pathname == "/99kaigakusai"}>
+    <div class="floatnavbutton shadow" class:activefloat={$page.url.pathname == "/"} class:gray={$page.url.pathname == "/kaigakusai/99"} class:black={$page.url.pathname == "/kaigakusai/60"}>
         <a href="/"><House size="50" strokeWidth="1">home</House></a>
     </div>
 
     <br>
 
-    <div class="floatnavbutton shadow" class:activefloat={$page.url.pathname == "/docs"} class:none={$page.url.pathname == "/99kaigakusai"}>
+    <div class="floatnavbutton shadow" class:activefloat={$page.url.pathname == "/docs"} class:none={$page.url.pathname == "/kaigakusai/99" || $page.url.pathname == "/kaigakusai/60"}>
         <a href="/docs"><FileMinus size="50"strokeWidth="1">docs</FileMinus></a>
     </div>
 
     <br>
 
-    <div class="floatnavbutton shadow" class:activefloat={$page.url.pathname == "/info"} class:none={$page.url.pathname == "/99kaigakusai"}>
+    <div class="floatnavbutton shadow" class:activefloat={$page.url.pathname == "/info"} class:none={$page.url.pathname == "/kaigakusai/99" || $page.url.pathname == "/kaigakusai/60"}>
         <a href="/info"><Info size="50"strokeWidth="1">info</Info></a>
     </div>
 </nav>
@@ -47,7 +47,6 @@
     }
 
     .floatnavbutton {
-        opacity: 90%;
         padding: 5px;
         width: 60px;
         height: 60px;
@@ -57,8 +56,12 @@
         background-color: var(--red-4);
     }
 
-    .black {
+    .gray {
         background-color: var(--gray-3);
+    }
+
+    .black {
+        background-color: black;
     }
 
     .activefloat {
